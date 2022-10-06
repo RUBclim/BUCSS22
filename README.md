@@ -1,5 +1,5 @@
 # BUCSS22
-Course materials from the Bochum Urban Climate Summer School (Germany, 2022)
+Course materials from the 2022 Bochum Urban Climate Summer School (Germany)
 
 ## Context
 The first three editions of BUCSS took place in Bucharest (Romania) (see e.g. [here](https://icub.unibuc.ro/events/bucss2019/) for 2019). 
