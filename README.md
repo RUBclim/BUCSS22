@@ -1,6 +1,10 @@
 # BUCSS22
 Course materials from the 2022 Bochum Urban Climate Summer School (Germany)
 
+## Note
+Cloning this repository will copy a large amount of data to your local drive (`data/` = 2.3 GB). You might consider only downloading the presentations / notebooks / dataseys that you are interested in. Or you can use [`git-sparse-checkout`](https://git-scm.com/docs/git-sparse-checkout) to only clone the folders you are interested in.
+
+
 ## Context
 The first three editions of BUCSS took place in Bucharest (Romania) (see e.g. [here](https://icub.unibuc.ro/events/bucss2019/) for 2019). 
 This 4th edition took place from 26 to 29 September 2022 at Ruhr-University Bochum (Germany), and aimed at 1) providing a general introduction to different facets of urban climatology with a special focus on urban climate informatics, 2) providing structured information and skill-building capabilities related to urban climate monitoring, remote sensing and modelling, and 3) strengthening an active pool of young scientists to tackle the major urban sustainability challenges of future generations.
