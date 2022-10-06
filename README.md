@@ -59,10 +59,10 @@ This hands-on is composed out of two parts:
 
 These hands-ons require the following files available under `data/LST/`:
 
-* ESACCI-LST-MODIST-RUBMEX-2018-D.nc: MODIS LST data
-* mexico_cities.tif: raster layer with urban boundaries
-* SUHI_DB-MOD11A1.061-v1.0.1.db: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
-* SUHII_monthly_means.db: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
+* `ESACCI-LST-MODIST-RUBMEX-2018-D.nc`: MODIS LST data
+* `mexico_cities.tif`: raster layer with urban boundaries
+* `SUHI_DB-MOD11A1.061-v1.0.1.db`: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
+* `SUHII_monthly_means.db`: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
 
 <br>
 
@@ -72,15 +72,15 @@ These hands-ons require the following files available under `data/LST/`:
 
 Goal of this workshop is to apply to learn how to apply the quality-control package [CrowdQC+](https://doi.org/10.3389/fenvs.2021.720747) on an exert of the global CWS database compiled in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/).
 
-Via this [Python notebook](notebooks/crowdqcplus_application.ipynb) you lean how to:
+Via this [Python notebook](notebooks/crowdqcplus_application.ipynb) you learn how to:
 
-- use R in this Python environment
+- use R in a Python environment
 - get hands-on experience with real crowdsourced CWS data
 - investigate issues with such data
 - use CrowdQC+ to quality-control such data
 - do some first analyses with the quality-controlled data
 
-This hands-on requires the .csv file available under `data/CWS/`
+This hands-on requires the `cws_data_cqcp_hands_on.csv` file available under `data/CWS/`
 
 <br>
 
@@ -96,8 +96,28 @@ The goal of this hands-on is the replicate this work, using Sentinel-2 informati
 2. Add greennees to this database ([GEE javascript](notebooks/greenest_city_germany.js))
 3. Display the results ([Python notebook](notebooks/GEE_plot_city_data.ipynb))
 
-This hands-on requires the .csv and .json files available under `data/GEE/`
+This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files available under `data/GEE/`
 
 <br>
 
 #### _WRF evaluation and roottop mitigation strategies_
+
+![WRF_Netatmo_evaluation.png](img/WRF_Netatmo_evaluation.png)
+
+For this hands-one, 6 WRF simulations are pre-computed, covering the Ruhr-Area (Germany) and heatwave period between 20 - 28 July 2019. Further details on the model's configuration and simulation details are provided in the [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf).
+
+Two notebooks are developed to complete this exercise:
+- [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook that contains a set of pre-scripted functions to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations.
+- [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations. Also assesses the impact of the rooftop mitigation strategy simulations.
+
+These hands-ons require a bunch of files available under
+
+* `data/WRF_CWS/`:
+  * `netatmo_heatwave_2019_bucss.csv`: quality-controlled timeseries of 5000+ CWS stations in the Ruhr-area, for the period 21-28 July 2019.
+  * `netatmo_heatwave_2019_bucss_metadata.csv`: metadata for all above-mentioned CWS stations
+
+* `data/WRF/`:
+  * `INPUT/`: the required geo_em*.nc files to run the various WRF simulations. Note that the [W2W package](https://doi.org/10.21105/joss.04432) was used to insert the LCZ-based urban description.
+  * `OUTPUT/`: output files for all WRF simulations. 
+  * 
+Please see  [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf) for further details.
