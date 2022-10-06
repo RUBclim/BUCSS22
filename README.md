@@ -2,7 +2,7 @@
 Course materials from the 2022 Bochum Urban Climate Summer School (Germany)
 
 ## Note
-Cloning this repository will copy a large amount of data to your local drive (`data/` = 2.3 GB). You might consider only downloading the presentations / notebooks / dataseys that you are interested in. Or you can use [`git-sparse-checkout`](https://git-scm.com/docs/git-sparse-checkout) to only clone the folders you are interested in.
+Cloning this repository will copy a large amount of data to your local drive (in total 5.6GB, `data/` folder is 2.3GB). You might consider only downloading the presentations / notebooks / dataseys that you are interested in. Or you can use [`git-sparse-checkout`](https://git-scm.com/docs/git-sparse-checkout) to only clone the folders you are interested in.
 
 
 ## Context
@@ -40,7 +40,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 - **Helen Claire Ward**: [Evaluating urban climate models](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Ward_ModelEvaulation.pdf)
 
 #### _Thursday 29.09_
-- **Andrea Zonato**: [Introduction to WRF](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Zonato_WRF.pdf)
+- **Andrea Zonato**: [Introduction to (urban climate modelling with) WRF](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Zonato_WRF.pdf)
 - **Matthias Demuzere and Andrea Zonato**: [Guidelines for the WRF hands-on session](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf)
 
 
@@ -49,6 +49,9 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 ### Hands-on sessions
 - - -
 
+During the school, all notebooks were executed in [Google Colaboratory](https://colab.research.google.com/), reading and writing information from a dedicated Google Drive. So in case you are using these notebooks outside this environment, you probably have to take care of your own python environment and directory definitions. 
+
+<br>
 
 #### _Process ESA CCI LST/SUHI data_
 
@@ -65,8 +68,8 @@ These hands-ons require the following files available under `data/LST/`:
 
 * `ESACCI-LST-MODIST-RUBMEX-2018-D.nc`: MODIS LST data
 * `mexico_cities.tif`: raster layer with urban boundaries
-* `SUHI_DB-MOD11A1.061-v1.0.1.db`: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
-* `SUHII_monthly_means.db`: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
+* `SUHI_DB-MOD11A1.061-v1.0.1.db`: excerpt of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
+* `SUHII_monthly_means.db`: excerpt of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
 
 <br>
 
@@ -74,7 +77,7 @@ These hands-ons require the following files available under `data/LST/`:
 
 ![dTa_CrowdQCplus.png](img/dTa_CrowdQCplus.png)
 
-Goal of this workshop is to apply to learn how to apply the quality-control package [CrowdQC+](https://doi.org/10.3389/fenvs.2021.720747) on an exert of the global CWS database compiled in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/).
+Goal of this workshop is to apply to learn how to apply the quality-control package [CrowdQC+](https://doi.org/10.3389/fenvs.2021.720747) on an excerpt of the global CWS database compiled in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/).
 
 Via this [Python notebook](notebooks/crowdqcplus_application.ipynb) you learn how to:
 
