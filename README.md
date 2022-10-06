@@ -117,7 +117,9 @@ These hands-ons require a bunch of files available under
   * `netatmo_heatwave_2019_bucss_metadata.csv`: metadata for all above-mentioned CWS stations
 
 * `data/WRF/`:
-  * `INPUT/`: the required geo_em*.nc files to run the various WRF simulations. Note that the [W2W package](https://doi.org/10.21105/joss.04432) was used to insert the LCZ-based urban description.
+  * `INPUT/`: the required geo_em*.nc files to run the various WRF simulations. Note that:
+    * the [W2W package](https://doi.org/10.21105/joss.04432) was used to insert the LCZ-based urban description.
+    * the Local Climate Zone map was extracted from the global map of Local Climate Zones [(Demuzere et al., 2022)](https://doi.org/10.5194/essd-14-3835-2022).
   * `OUTPUT/`: output files for all WRF simulations. 
   * 
 Please see  [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf) for further details.
