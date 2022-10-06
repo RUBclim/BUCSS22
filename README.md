@@ -57,16 +57,32 @@ This hands-on is composed out of two parts:
 1. Process MODIS LST data and calculate zonal statistics ([Python notebook](notebooks/LST_Exercise_partA.ipynb))
 2. Open the SUHI database for Mexico, developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/), and process it in a number of ways, leading to the SUHII seasonal hysteresis as published in [Sismanidis et al. 2022](http://doi.org/10.3390/rs14102318) ([Python notebook](notebooks/LST_Exercise_partB.ipynb)).
 
-These hands-ons require the following files available under data/LST/
+These hands-ons require the following files available under `data/LST/`:
 
 * ESACCI-LST-MODIST-RUBMEX-2018-D.nc: MODIS LST data
 * mexico_cities.tif: raster layer with urban boundaries
 * SUHI_DB-MOD11A1.061-v1.0.1.db: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
 * SUHII_monthly_means.db: exert of SUHI database developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/)
 
+<br>
+
 #### _Quality control CWS data with CrowdQC+_
 
+![dTa_CrowdQCplus.png](img/dTa_CrowdQCplus.png)
 
+Goal of this workshop is to apply to learn how to apply the quality-control package [CrowdQC+](https://doi.org/10.3389/fenvs.2021.720747) on an exert of the global CWS database compiled in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/).
+
+Via this [Python notebook](notebooks/crowdqcplus_application.ipynb) you lean how to:
+
+- use R in this Python environment
+- get hands-on experience with real crowdsourced CWS data
+- investigate issues with such data
+- use CrowdQC+ to quality-control such data
+- do some first analyses with the quality-controlled data
+
+This hands-on requires the .csv file available under `data/CWS/`
+
+<br>
 
 #### _Greenest German city in Google Earth Engine_
 
@@ -82,5 +98,6 @@ The goal of this hands-on is the replicate this work, using Sentinel-2 informati
 
 This hands-on requires the .csv and .json files available under `data/GEE/`
 
+<br>
 
 #### _WRF evaluation and roottop mitigation strategies_
