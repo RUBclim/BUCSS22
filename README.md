@@ -11,7 +11,10 @@ Official website: [https://www.climate.ruhr-uni-bochum.de/bucss/](https://www.cl
 ## Course materials
 The programme consists out of state-of-the-art lectures and hands-on tutorials on remote sensing in urban areas, crowdsourcing and urban climate modelling. All of these teaching resources are available here:  
 
-### 1. Lectures
+<br>
+
+### Lectures
+- - -
 
 #### _Monday 26.09_
 - **Student self-presentations**
@@ -37,10 +40,17 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 - **Matthias Demuzere and Andrea Zonato**: [Guidelines for the WRF hands-on session](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf)
 
 
-### 2. Hands-on sessions
+<br>
+
+### Hands-on sessions
+- - -
 
 
 #### _Process ESA CCI LST/SUHI data_
+
+
+![SUHII_ENLIGHT_hysteresis.png](img/SUHII_ENLIGHT_hysteresis.png)
+
 
 This hands-on is composed out of two parts:
 
