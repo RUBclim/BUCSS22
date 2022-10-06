@@ -29,7 +29,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 
 #### _Wednesday 28.09_
 - **Leena Järvi**: [General introduction to urban climate modelling](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Jarvi_modelling.pdf)
-- **Robert Rauterkus**: 
+- **Robert Rauterkus**: [Urban Climate Modeling With PALM](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Rauterkus_PALM.pdf)
 - **Helen Claire Ward**: [Evaluating urban climate models](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Ward_ModelEvaulation.pdf)
 
 #### _Thursday 29.09_
@@ -37,15 +37,30 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 - **Matthias Demuzere and Andrea Zonato**: [Guidelines for the WRF hands-on session](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf)
 
 
-### 2. Notebooks
+### 2. Hands-on sessions
+
 
 #### _Process ESA CCI LST/SUHI data_
+
 
 
 #### _Quality control CWS data with CrowdQC+_
 
 
+
 #### _Greenest German city in Google Earth Engine_
+
+![gee_greenest_cities.png](img/gee_greenest_cities.png)
+
+In [this interactive newspaper article](https://interaktiv.morgenpost.de/gruenste-staedte-deutschlands/), published in the Berliner Morgenpost May 10 2016, the authors used the Landsat archive in Google Earth Engine to estimate the "greenest" large (>100 000 inhabitants) city in Germany.   
+
+The goal of this hands-on is the replicate this work, using Sentinel-2 information in stead. The procedure consist out of three steps:
+
+1. Create a database with relevant cities ([Python notebook](notebooks/GEE_prep_city_data.ipynb))
+2. Add greennees to this database ([GEE javascript](notebooks/greenest_city_germany.js))
+3. Display the results ([Python notebook](notebooks/GEE_plot_city_data.ipynb))
+
+This hands-on requires the .csv and .json files available under `data/GEE/`
 
 
 #### _WRF evaluation and roottop mitigation strategies_
