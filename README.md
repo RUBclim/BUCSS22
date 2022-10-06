@@ -11,25 +11,41 @@ Official website: [https://www.climate.ruhr-uni-bochum.de/bucss/](https://www.cl
 ## Course materials
 The programme consists out of state-of-the-art lectures and hands-on tutorials on remote sensing in urban areas, crowdsourcing and urban climate modelling. All of these teaching resources are available here:  
 
-### Monday 26.09
-- student self-presentations
-- Gerald Mills: 
-- Andreas Christen:
-- Benjamin Bechtel:
-- Simone Kotthaus: 
-- Matthias Demuzere: Introduction to Google Colaboratory
+### 1. Lectures
 
-### Tuesday 27.09
-- Ariane Middel: Urban Climate Informatics
-- Negin Nazarian: 
-- Daniel Fenner: Crowdsourcing Crowd (Citizen) Weather Station Data
-- Matthias Demuzere: Introduction to Google Earth Engine
+#### _Monday 26.09_
+- **Student self-presentations**
+- **Gerald Mills**: 
+- **Andreas Christen**:
+- **Benjamin Bechtel**:
+- **Simone Kotthaus**: 
+- **Matthias Demuzere**: [Introduction to Google Colaboratory](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_GoogleColab_Intro.pdf)
 
-### Wednesday 28.09
-- Leena Järvi: General introduction to urban climate modelling
-- Robert Rauterkus: 
-- Helen Claire Ward: Evaluating urban climate models
+#### _Tuesday 27.09_
+- **Ariane Middel**: [Urban Climate Informatics](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Middel_UCI.pdf)
+- **Negin Nazarian**: 
+- **Daniel Fenner**: [Crowdsourcing Crowd (Citizen) Weather Station Data](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Fenner_Crowdsourcing_CWS.pdf)
+- **Matthias Demuzere**: [Introduction to Google Earth Engine](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_GoogleEarthEngine.pdf)
 
-### Thursday 29.09
-- Andrea Zonato: Introduction to WRF
-- Matthias Demuzere and Andrea Zonato: Guidelines for the WRF hands-on session
+#### _Wednesday 28.09_
+- **Leena Järvi**: [General introduction to urban climate modelling](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Jarvi_modelling.pdf)
+- **Robert Rauterkus**: 
+- **Helen Claire Ward**: [Evaluating urban climate models](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Ward_ModelEvaulation.pdf)
+
+#### _Thursday 29.09_
+- **Andrea Zonato**: [Introduction to WRF](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Zonato_WRF.pdf)
+- **Matthias Demuzere and Andrea Zonato**: [Guidelines for the WRF hands-on session](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf)
+
+
+### 2. Notebooks
+
+#### _Process ESA CCI LST/SUHI data_
+
+
+#### _Quality control CWS data with CrowdQC+_
+
+
+#### _Greenest German city in Google Earth Engine_
+
+
+#### _WRF evaluation and roottop mitigation strategies_
