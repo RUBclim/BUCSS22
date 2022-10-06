@@ -107,7 +107,7 @@ This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files avail
 For this hands-one, 6 WRF simulations are pre-computed, covering the Ruhr-Area (Germany) and heatwave period between 20 - 28 July 2019. Further details on the model's configuration and simulation details are provided in the [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf).
 
 Two notebooks are developed to complete this exercise:
-- [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook that contains a set of pre-scripted functions to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations.
+- [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook that contains a set of pre-scripted functions to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations (no changes needed in this one).
 - [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations. Also assesses the impact of the rooftop mitigation strategy simulations.
 
 These hands-ons require a bunch of files available under
@@ -118,8 +118,9 @@ These hands-ons require a bunch of files available under
 
 * `data/WRF/`:
   * `INPUT/`: the required geo_em*.nc files to run the various WRF simulations. Note that:
+    * the Local Climate Zone map for the Ruhr area was extracted from the global map of Local Climate Zones [(Demuzere et al., 2022)](https://doi.org/10.5194/essd-14-3835-2022). 
     * the [W2W package](https://doi.org/10.21105/joss.04432) was used to insert the LCZ-based urban description.
-    * the Local Climate Zone map was extracted from the global map of Local Climate Zones [(Demuzere et al., 2022)](https://doi.org/10.5194/essd-14-3835-2022).
+
   * `OUTPUT/`: output files for all WRF simulations. 
-  * 
+
 Please see  [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf) for further details.
