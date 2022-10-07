@@ -32,7 +32,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 
 #### _Wednesday 28.09_
 - **Leena Järvi**: [General introduction to urban climate modelling](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Jarvi_modelling.pdf)
-- **Robert Rauterkus**: [Introduction to PALM](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/ETN9z2kGkyz3DG3)
+- **Robert Rauterkus**: [Introduction to PALM](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/ETN9z2kGkyz3DG3) (245MB, hosted under Nextcloud)
 - **Helen Claire Ward**: [Evaluating urban climate models](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Ward_ModelEvaulation.pdf)
 
 #### _Thursday 29.09_
