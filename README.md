@@ -1,12 +1,14 @@
 # BUCSS22
-Course materials from the 2022 Bochum Urban Climate Summer School (Germany)
+Course materials from the 2022 Bochum Urban Climate Summer School (Germany).
 
 ## Context
 The first three editions of BUCSS took place in Bucharest (Romania) (see e.g. [here](https://icub.unibuc.ro/events/bucss2019/) for 2019). 
-This 4th edition took place from 26 to 29 September 2022 at Ruhr-University Bochum (Germany), and aimed at 1) providing a general introduction to different facets of urban climatology with a special focus on urban climate informatics, 2) providing structured information and skill-building capabilities related to urban climate monitoring, remote sensing and modelling, and 3) strengthening an active pool of young scientists to tackle the major urban sustainability challenges of future generations.
+This 4th edition took place from 26 to 29 September 2022 at [Ruhr-University Bochum (Germany)](https://www.ruhr-uni-bochum.de/en), and aimed at 1) providing a general introduction to different facets of urban climatology with a special focus on urban climate informatics, 2) providing structured information and skill-building capabilities related to urban climate monitoring, remote sensing and modelling, and 3) strengthening an active pool of young scientists to tackle the major urban sustainability challenges of future generations.
 
 Official website: [https://www.climate.ruhr-uni-bochum.de/bucss/](https://www.climate.ruhr-uni-bochum.de/bucss/) 
 
+## Note
+The crowdsourced and LST/SUHI data used in some hands-on sessions are developed by the [Bochum Urban Climate Lab](https://www.climate.ruhr-uni-bochum.de/research/research-areas/)  as part of the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/). These dataset excerpts are only a small fraction of a global dataset, that spans 2000-2018 for LST/SUHI and 2019-now for the crowdsourced data. Feel free to reach out in case you are interested to use these datasets for your own reach project, we are always open for new collaborations.
 
 ## Course materials
 The programme consists out of state-of-the-art lectures and hands-on tutorials on remote sensing in urban areas, crowdsourcing and urban climate modelling. All of these teaching resources are available below.  
@@ -18,7 +20,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 
 #### _Monday 26.09_
 - **Student self-presentations**: a compressed archive of all presentations is available [here](https://github.com/RUBclim/BUCSS22/blob/main/lectures/student_self-presentations.tar.xz)
-- **Gerald Mills**: 
+- **Gerald Mills**: [Urban climate science](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Mills_IntroUrbanClimate.pdf) (including notes)
 - **Andreas Christen**:
 - **Benjamin Bechtel**:
 - **Simone Kotthaus**: 
@@ -96,7 +98,7 @@ In [this interactive newspaper article](https://interaktiv.morgenpost.de/gruenst
 The goal of this hands-on is the replicate this work, using Sentinel-2 information instead. The procedure consist out of three steps:
 
 1. Create a database with relevant cities ([Python notebook](notebooks/GEE_prep_city_data.ipynb))
-2. Add greennees to this database ([GEE javascript](notebooks/greenest_city_germany.js))
+2. Add greennees (derived from Sentinel-2) to this database ([GEE javascript](notebooks/greenest_city_germany.js))
 3. Display the results ([Python notebook](notebooks/GEE_plot_city_data.ipynb))
 
 This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files available from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr) under `GEE/`
@@ -107,7 +109,7 @@ This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files avail
 
 ![WRF_Netatmo_evaluation.png](img/WRF_Netatmo_evaluation.png)
 
-For this hands-on, 6 WRF simulations are pre-computed, covering the Ruhr-Area (Germany) and heatwave period between 20 - 28 July 2019. Further details on the model's configuration and simulation details are provided in the [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf).
+For this hands-on, 6 WRF simulations are pre-computed, covering the Ruhr-Area (Germany) and a heatwave period between 20 - 28 July 2019. Further details on the model's configuration and simulation details are provided in the [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf).
 
 Two notebooks are developed to complete this exercise:
 - [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook that contains a set of pre-scripted functions to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations (no changes needed in this one).
@@ -116,8 +118,8 @@ Two notebooks are developed to complete this exercise:
 These hands-ons require a bunch of files available from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr) under:
 
 * `WRF_CWS/`:
-  * `netatmo_heatwave_2019_bucss.csv`: quality-controlled timeseries of 5000+ CWS stations in the Ruhr-area, for the period 21-28 July 2019.
-  * `netatmo_heatwave_2019_bucss_metadata.csv`: metadata for all above-mentioned CWS stations
+  * `cws_heatwave_2019_bucss.csv`: quality-controlled timeseries of 5000+ CWS stations in the Ruhr-area, for the period 21-28 July 2019.
+  * `cws_heatwave_2019_bucss_metadata.csv`: metadata for all above-mentioned CWS stations
 
 * `WRF/`:
   * `INPUT/`: the required geo_em*.nc files to run the various WRF simulations. Note that:
