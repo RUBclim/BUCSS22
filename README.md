@@ -30,6 +30,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 - **Benjamin Bechtel**:
 - **Simone Kotthaus**: 
 - **Matthias Demuzere**: [Introduction to Google Colaboratory](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_GoogleColab_Intro.pdf)
+- **Panagiotis Sismanidis**: [Thermal remote sensing - exercise](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Sismanidis_TIR.pdf)
 
 #### _Tuesday 27.09_
 - **Ariane Middel**: [Urban Climate Informatics](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Middel_UCI.pdf)
