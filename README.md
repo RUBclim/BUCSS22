@@ -113,7 +113,7 @@ This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files avail
 
 #### _4. WRF evaluation and roottop mitigation strategies_
 
-![WRF_Netatmo_evaluation.png](img/WRF_Netatmo_evaluation.png)
+![WRF_CWS_evaluation.png](img/WRF_CWS_evaluation.png)
 
 For this hands-on, 6 WRF simulations are pre-computed, covering the Ruhr-Area (Germany) and a heatwave period between 20 - 28 July 2019. Further details on the model's configuration and simulation details are provided in the [WRF hands-on slides](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_Zonato_WRF-HandsOn.pdf).
 
