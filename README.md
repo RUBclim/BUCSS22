@@ -118,7 +118,7 @@ For this hands-on, 6 WRF simulations are pre-computed, covering the Ruhr-Area (G
 
 Two notebooks are developed to complete this exercise:
 - [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook that contains a set of pre-scripted functions to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations (no changes needed in this one).
-- [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations. It also allows you to assess the impact of the rooftop mitigation strategies (RMS) compared to the baseline simulation without RMS.
+- [WRF_evaluations.ipynb](notebooks/WRF_evaluations.ipynb): a notebook to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations. It also allows you to assess the impact of the rooftop mitigation strategies (RMS) compared to the baseline simulation without RMS.
 
 These hands-ons require a bunch of files available from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr) under:
 
