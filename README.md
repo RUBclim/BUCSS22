@@ -28,13 +28,14 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 - **Gerald Mills**: [Urban climate science](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Mills_IntroUrbanClimate.pdf) (including notes)
 - **Andreas Christen**:
 - **Benjamin Bechtel**:
-- **Simone Kotthaus**: 
+- **Simone Kotthaus**: [Introduction to ground-based remote sensing
+of the urban boundary layer](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Kotthaus_Intro_ground_based_RS.pdf)
 - **Matthias Demuzere**: [Introduction to Google Colaboratory](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_GoogleColab_Intro.pdf)
 - **Panagiotis Sismanidis**: [Thermal remote sensing - exercise](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Sismanidis_TIR.pdf)
 
 #### _Tuesday 27.09_
 - **Ariane Middel**: [Urban Climate Informatics](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Middel_UCI.pdf)
-- **Negin Nazarian**: 
+- **Negin Nazarian**: [Personal exposure to urban climate: Infilling the urban climate networks with IoT, ubiquitous, and crowdsourced sensing](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Nazarian_Crowdsourcing_IoT_wearables.pdf)
 - **Daniel Fenner**: [Crowdsourcing Crowd (Citizen) Weather Station Data](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Fenner_Crowdsourcing_CWS.pdf)
 - **Matthias Demuzere**: [Introduction to Google Earth Engine](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_GoogleEarthEngine.pdf)
 
