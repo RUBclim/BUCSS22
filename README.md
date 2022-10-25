@@ -27,7 +27,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 - **Student self-presentations**: a compressed archive of all presentations is available [here](https://github.com/RUBclim/BUCSS22/blob/main/lectures/student_self-presentations.tar.xz)
 - **Gerald Mills**: [Urban climate science](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Mills_IntroUrbanClimate.pdf) (including notes)
 - **Andreas Christen**:
-- **Benjamin Bechtel**:
+- **Benjamin Bechtel**: [Introduction to Satellite Remote Sensing (of Urban Climates)](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Bechtel_RS.pdf)
 - **Simone Kotthaus**: [Introduction to ground-based remote sensing
 of the urban boundary layer](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Kotthaus_Intro_ground_based_RS.pdf)
 - **Matthias Demuzere**: [Introduction to Google Colaboratory](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Demuzere_GoogleColab_Intro.pdf)
