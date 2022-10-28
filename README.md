@@ -26,7 +26,7 @@ The programme consists out of state-of-the-art lectures and hands-on tutorials o
 #### _Monday 26.09_
 - **Student self-presentations**: a compressed archive of all presentations is available [here](https://github.com/RUBclim/BUCSS22/blob/main/lectures/student_self-presentations.tar.xz)
 - **Gerald Mills**: [Urban climate science](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Mills_IntroUrbanClimate.pdf) (including notes)
-- **Andreas Christen**:
+- **Andreas Christen**: [Urbanization, human dynamics and and climate change](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Christen_urbanization_dynamics_cc.pdf)
 - **Benjamin Bechtel**: [Introduction to Satellite Remote Sensing (of Urban Climates)](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Bechtel_RS.pdf)
 - **Simone Kotthaus**: [Introduction to ground-based remote sensing
 of the urban boundary layer](https://github.com/RUBclim/BUCSS22/blob/main/lectures/Kotthaus_Intro_ground_based_RS.pdf)
