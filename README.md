@@ -69,7 +69,7 @@ This hands-on is composed out of two parts:
 1. Process MODIS LST data and calculate zonal statistics ([Python notebook](notebooks/LST_Exercise_partA.ipynb))
 2. Open the SUHI database for Mexico, developed in the [ENLIGHT project](https://www.climate.ruhr-uni-bochum.de/research/projects/enlight/), and process it in a number of ways, leading to the SUHII seasonal hysteresis as published in [Sismanidis et al. 2022](http://doi.org/10.3390/rs14102318) ([Python notebook](notebooks/LST_Exercise_partB.ipynb)).
 
-These hands-ons require the following files that can be downloaded from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr), under `LST/`:
+These hands-ons require the following files that can be downloaded from [here](https://doi.org/10.5281/zenodo.7886647), under `LST/`:
 
 * `ESACCI-LST-MODIST-RUBMEX-2018-D.nc`: MODIS LST data
 * `mexico_cities.tif`: raster layer with urban boundaries
@@ -92,7 +92,7 @@ Via this [Python notebook](notebooks/crowdqcplus_application.ipynb) you learn ho
 - use CrowdQC+ to quality-control such data
 - do some first analyses with the quality-controlled data
 
-This hands-on requires the `cws_data_cqcp_hands_on.csv` file available from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr) under `CWS/`
+This hands-on requires the `cws_data_cqcp_hands_on.csv` file available from [here](https://doi.org/10.5281/zenodo.7886647) under `CWS/`
 
 <br>
 
@@ -108,7 +108,7 @@ The goal of this hands-on is the replicate this work, using Sentinel-2 informati
 2. Add greennees (derived from Sentinel-2) to this database ([GEE javascript](notebooks/greenest_city_germany.js))
 3. Display the results ([Python notebook](notebooks/GEE_plot_city_data.ipynb))
 
-This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files available from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr) under `GEE/`
+This hands-on requires the `05-staedte.xlsx` and `gadm41_DEU_4.json` files available from [here](https://doi.org/10.5281/zenodo.7886647) under `GEE/`
 
 <br>
 
@@ -122,7 +122,7 @@ Two notebooks are developed to complete this exercise:
 - [WRF_functions.ipynb](notebooks/WRF_functions.ipynb): a notebook that contains a set of pre-scripted functions to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations (no changes needed in this one).
 - [WRF_evaluations.ipynb](notebooks/WRF_evaluations.ipynb): a notebook to read, manipulate and evalute all WRF input and output, the latter in combination with CWS observations. It also allows you to assess the impact of the rooftop mitigation strategies (RMS) compared to the baseline simulation without RMS.
 
-These hands-ons require a bunch of files available from [here](https://geo-cloud.geographie.ruhr-uni-bochum.de/index.php/s/RHBWQiSinZmotQr) under:
+These hands-ons require a bunch of files available from [here](https://doi.org/10.5281/zenodo.7886647) under:
 
 * `WRF_CWS/`:
   * `cws_heatwave_2019_bucss.csv`: quality-controlled timeseries of 5000+ CWS stations in the Ruhr-area, for the period 21-28 July 2019.
